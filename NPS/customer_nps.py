@@ -37,7 +37,7 @@ while True:
         print('Reached last Page')
         break
     elif (status_check != 200):
-        raise ValueError('Had Status Code Error on page ' + str(page_num))     
+        print('Had Status Code != 200 on page ' + str(page_num)))     
     else:
         # JSON format
         r_json = r.json()
