@@ -5,3 +5,6 @@ This folder contains all of the necessary files to run the order forecast. It in
 * lead time forecast
 * requirements file
 * 'initialize forecast' script
+
+
+Use the 'initialize_foreacst_v2.R' file to start the forecast process. 
